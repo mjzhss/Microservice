@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/SpringBoot.iml" filepath="$PROJECT_DIR$/SpringBoot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-admin/microservice-admin.iml" filepath="$PROJECT_DIR$/microservice-admin/microservice-admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-demo/microservice-demo.iml" filepath="$PROJECT_DIR$/microservice-demo/microservice-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-eureka-client/microservice-eureka-client.iml" filepath="$PROJECT_DIR$/microservice-eureka-client/microservice-eureka-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-eureka-consumer/microservice-eureka-consumer.iml" filepath="$PROJECT_DIR$/microservice-eureka-consumer/microservice-eureka-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-eureka-server/microservice-eureka-server.iml" filepath="$PROJECT_DIR$/microservice-eureka-server/microservice-eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-infrastructure/microservice-infrastructure.iml" filepath="$PROJECT_DIR$/microservice-infrastructure/microservice-infrastructure.iml" />
+    </modules>
+  </component>
+</project>
