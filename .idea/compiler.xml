@@ -6,11 +6,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="admin" />
-        <module name="demo" />
         <module name="microservice-admin" />
         <module name="microservice-demo" />
-        <module name="microservice-eureka" />
         <module name="microservice-eureka-client" />
         <module name="microservice-eureka-consumer" />
         <module name="microservice-eureka-server" />
@@ -18,9 +15,9 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
+      <module name="Microservice" target="1.8" />
       <module name="microservice-admin" target="1.8" />
       <module name="microservice-demo" target="1.8" />
-      <module name="microservice-eureka" target="1.8" />
       <module name="microservice-eureka-client" target="1.8" />
       <module name="microservice-eureka-consumer" target="1.8" />
       <module name="microservice-eureka-server" target="1.8" />

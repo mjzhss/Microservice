@@ -10,7 +10,7 @@
 
 	<parent>
 		<groupId>com.mjzh</groupId>
-		<artifactId>SpringBoot</artifactId>
+		<artifactId>Microservice</artifactId>
 		<version>1.0-SNAPSHOT</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>

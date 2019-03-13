@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/SpringBoot.iml" filepath="$PROJECT_DIR$/SpringBoot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Microservice.iml" filepath="$PROJECT_DIR$/Microservice.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-admin/microservice-admin.iml" filepath="$PROJECT_DIR$/microservice-admin/microservice-admin.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-demo/microservice-demo.iml" filepath="$PROJECT_DIR$/microservice-demo/microservice-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-eureka-client/microservice-eureka-client.iml" filepath="$PROJECT_DIR$/microservice-eureka-client/microservice-eureka-client.iml" />
