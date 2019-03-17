@@ -1,6 +1,7 @@
 package com;
 
 import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.cloud.client.loadbalancer.LoadBalanced;
@@ -23,6 +24,12 @@ public class EurekaConsumerApplication {
         SpringApplication.run(EurekaConsumerApplication.class, args);
     }
 
+    /**
+     * 注册服务
+     * @EnableDiscoveryClient向服务中心注册
+     * @LoadBalanced注解表明这个restRemplate开启负载均衡的功能。
+     * @return
+     */
     @Bean
     @LoadBalanced
     RestTemplate restTemplate() {
