@@ -70,6 +70,7 @@
         <module>microservice-eureka-server</module>
         <module>microservice-eureka-client</module>
         <module>microservice-eureka-consumer</module>
+        <module>microservice-service-zuul</module>
     </modules>
 
 </project>

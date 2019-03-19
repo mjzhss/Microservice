@@ -12,6 +12,7 @@
         <module name="microservice-eureka-consumer" />
         <module name="microservice-eureka-server" />
         <module name="microservice-infrastructure" />
+        <module name="microservice-service-zuul" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
@@ -20,8 +21,10 @@
       <module name="microservice-demo" target="1.8" />
       <module name="microservice-eureka-client" target="1.8" />
       <module name="microservice-eureka-consumer" target="1.8" />
+      <module name="microservice-eureka-feign" target="1.5" />
       <module name="microservice-eureka-server" target="1.8" />
       <module name="microservice-infrastructure" target="1.8" />
+      <module name="microservice-service-zuul" target="1.8" />
       <module name="SpringBoot" target="1.8" />
     </bytecodeTargetLevel>
   </component>
