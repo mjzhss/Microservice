@@ -1,1 +1,16 @@
 # Created by .ignore support plugin (hsz.mobi)
+.idea
+elk-eureka-server.log
+elk-eureka-consumer.log
+elk-eureka-client.log
+
+microservice-admin/src/test/
+microservice-admin-client/src/test
+microservice-admin-server/src/test
+microservice-demo/target/
+microservice-eureka-server/target/
+microservice-infrastructure/src/test/
+microservice-service-gateway/src/test/
+microservice-service-gateway/target/
+microservice-service-zuul
+
