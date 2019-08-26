@@ -1,9 +1,10 @@
 spring:
   application:
-    name: admin-client
+    name: microservice-eureka-consumer
 
 server:
-  port: 8768
+  address: localhost
+  port: 8764
 
 eureka:
   client:
@@ -13,7 +14,9 @@ eureka:
     instance-id: ${eureka.instance.ip-address}:${server.port}
     ip-address: localhost
     prefer-ip-address: true
-    health-check-url-path: /actuator/health
+
+logging:
+  file: elk-eureka-consumer.log
 
 management:
   endpoints:

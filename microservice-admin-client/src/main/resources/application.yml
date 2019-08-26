@@ -1,12 +1,18 @@
 spring:
   application:
     name: admin-client
-  boot:
-    admin:
-      client:
-        url: http://localhost:8769
+
 server:
   port: 8768
+
+eureka:
+  client:
+      service-url:
+            defaultZone: http://localhost:8761/eureka/
+  instance:
+    instance-id: ${eureka.instance.ip-address}:${server.port}
+    ip-address: localhost
+    prefer-ip-address: true
 
 management:
   endpoints:
